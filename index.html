@@ -8,8 +8,76 @@
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
   </head>
+  <style>
+    hr {
+      border: none;
+      border-top: 3px double #333;
+      color: #333;
+      overflow: visible;
+      text-align: center;
+      height: 5px;
+    }
+
+    hr:after {
+      background: #fff;
+      content: "§";
+      padding: 0 4px;
+      position: relative;
+      top: -13px;
+    }
+  </style>
   <body>
-    <h1>ポートフォリオサイト</h1>
-    <script src="main.js"></script>
+    <header>
+      <div class="title">
+        <h1 class="home" id="home">My Portfolio</h1>
+      </div>
+      <script src="main.js"></script>
+    </header>
+    <br />
+    <hr />
+    <br />
+    <div class="profile-container">
+      <h2 id="pro-title">My Profile</h2>
+      <img src="me3.jpg" alt="me3" width="300px" />
+      <div class="pro-profile">
+        <h4 id="pro-name">Name : Dai Hasegawa</h4>
+        <h4 id="pro-age">Age : 20</h4>
+        <h4 id="pro-birthday">B-Day : 8 / 30</h4>
+      </div>
+    </div>
+    <br />
+    <hr />
+    <br />
+    <div class="favorite-container">
+      <h2 id="fav-title">My Favorite</h2>
+      <div class="fav-favorite">
+        <img src="baseball.jpg" alt="baseball" width="350px" />
+        <img src="baseball2.jpg" alt="baseball2" width="350px" />
+        <h4 id="fav-baseball">Baseball</h4>
+        <img src="snowboarding.jpg" alt="snowboarding" width="350px" />
+        <img src="snowboarding2.jpg" alt="snowboarding2" width="350px" />
+        <h4 id="fav-snowboarding">Snowboarding</h4>
+        <img src="we.jpg" alt="we" width="300px" />
+        <img src="we2.jpg" alt="we2" width="300px" />
+        <img src="we3.jpg" alt="we3" width="300px" />
+        <p></p>
+        <img src="we4.jpg" alt="we4" width="300px" />
+        <img src="we5.jpg" alt="we5" width="300px" />
+        <img src="we6.jpg" alt="we6" width="300px" />
+        <h4>Others</h4>
+      </div>
+    </div>
+    <br />
+    <hr />
+    <br />
+    <div class="sns-container">
+      <h2 id="instagram">My Instagram</h2>
+      <a href="https://www.instagram.com/daidaidaibouken/">
+        <img
+          src="https://about.fb.com/ja/wp-content/uploads/sites/15/2019/10/new-ig-icon-1.png"
+          width="300px"
+        />
+      </a>
+    </div>
   </body>
 </html>
